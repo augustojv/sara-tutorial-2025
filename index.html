@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Workshop on Cognitive Architectures</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+                        CogArch
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li><a data-scroll href="#call">Call for Papers</a></li>
+                    <li><a data-scroll href="#speakers">Speakers</a></li>         
+                    <li><a data-scroll href="#program">Program</a></li>
+                    <li><a data-scroll href="#prev">Past Editions</a></li>
+                    <li><a data-scroll href="#org">Organizers</a></li>
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <p>June 22<sup>nd</sup> 2025, Tokyo, Japan</p>
+
+			<br>
+			
+            <h1 style="color: #FDFA29">CogArch 2025</h1>            
+            <h1 style="color: #FDFA29">9<sup>th</sup> Workshop on Cognitive Architectures</h1>
+			
+			<h2 style="color: #FFFFDD"><em><strong>Unlocking the Potential of Generative AI in the Age of Chiplets</strong></em></h2>
+
+			<br><br><br><br>
+                        
+            <a class="btn btn-white" data-scroll href="#call">Contribute Now</a>
+
+            <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
+        
+        </div>
+    </header>
+
+    <section id="call" class="section call for papers">
+        <div class="container">
+			<div class="alert alert-success" role="alert">
+			  <strong>EXCITING NEWS!</strong> Accepted works will have the chance to be published in one of the leading journals in computer architecture.
+			  Stay tuned and don’t forget to submit yours by April 18!
+			</div>
+			<br/>
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title multiple-title">Call for Papers</h3>
+
+                    <p>
+					Artificial Intelligence (AI) and Machine Learning (ML) techniques have become the <em>de facto</em> solution to drive human progress and
+					more specifically, automation. In the last few years, the world’s economy has been gravitating towards the AI/ML domain (from industrial
+					and scientific perspectives) and the expectation of growth has only been increasing with the rapid rate of innovation and commercial deployments.
+					<br>
+					Over the past eight editions, the CogArch workshop has brought together experts and knowledge on the most novel design ideas for cognitive systems.
+					This workshop capitalizes on the synergy between industrial and academic efforts in order to provide a better understanding of cognitive systems
+					and key concepts of their design. <strong>This particular edition emphasizes the challenges associated with the implementation of <em>generative
+					AI</em> and the integration of <em>chiplets</em> as a means to fully realize its potential.</strong> As generative AI models continue to expand
+					in size and complexity, the resulting computational demands impact the entire software-hardware ecosystem. This creates a variety of new challenges
+					that necessitate unconventional strategies to maintain scalability in both upward and outward directions. With Large Language Model (LLM) parameter
+					sizes approaching several billions, chiplet-based architectures represent a promising technological advancement that could enable a cost-effective
+					and energy-efficient solution for processing such models, thus potentially transforming the future landscape of cognitive systems.
+					<br>
+					The CogArch workshop solicits formative ideas and new product offerings in the general space of AI systems that covers all the design aspects of
+					cognitive systems, with particular focus this year on the adoption of chiplets as a promising way to support large-scale generative AI.
+				    </p>
+					
+					<p>
+					<strong>Topics of interest include (but are not limited to):</strong>
+                    <ul class="list-arrow-right">
+                        <li>2.5D/3D chiplet architectures, along with wafer scaling and various heterogeneous integration methods,
+                            including optical heterogeneous integration, to create scalable frameworks for generative AI models.</li>
+                        <li>Development of software and compiler frameworks for large-scale deployment of generative AI models.</li>
+                        <li>Hardware-software co-design for commercially deployed AI hardware acceleration frameworks.</li>
+                        <li>Accelerators and micro-architectural support for LLMs.</li>
+                        <li>Reliability and safety considerations, and security against adversarial attacks in cognitive architectures.</li>
+                        <li>Techniques for improving energy efficiency of AI applications, and battery life extension and endurance
+                            in mobile AI architectures.</li>
+                        <li>AI/ML for fast system modeling and AI/ML as design methodology.</li>
+                        <li>Privacy-preserving inference on AI models.</li>
+                        <li>Prototype demonstrations in specific application domains: e.g., natural language processing and speech,
+                            protein folding, drug discovery, computer vision, code generation, music making, as well as applications of
+                            interest to defense and homeland security.</li>
+                    </ul>
+				    </p>
+
+					<p>
+                    The workshop will consist of <strong>regular presentations</strong> and/or <strong>prototype demonstrations</strong> by authors of selected submissions.
+                    In addition, it will include invited keynotes by eminent researchers as well as interactive panel discussions to kindle further interest in these
+                    research topics.
+				    </p>
+					
+                </div><!-- /.col-sm-6 -->
+
+                <div class="col-sm-6">
+
+                    <p>
+                    Submitted manuscripts must be in English of <strong>up to 2 pages</strong> (with same
+                    <a href="https://www.iscaconf.org/isca2025/submit/guidelines.php" target="_blank">formatting guidelines as main 
+                    conference</a>) indicating the type of submission: <strong>regular presentation</strong> or <strong>prototype 
+                    demonstration</strong>. Submissions should be submitted to the following
+					<strong><a href="https://easychair.org/conferences/?conf=cogarch2025" target="_blank">link</a></strong> by
+					April 18<sup>th</sup>, 2025.
+                    <br>
+                    If you have questions regarding submission, please contact us:
+                    <a href="mailto:info@cogarchworkshop.org">info@cogarchworkshop.org</a>
+                    </p>
+
+                    <h3 class="section-title multiple-title">Call for Prototype Demonstrations</h3>
+
+                    <p>
+                    CogArch will feature a session where researchers can showcase innovative prototype demonstrations or 
+                    <i>proof-of-concept</i> designs in the cognitive architecture space. Examples of such demonstrations may include (but are 
+                    not limited to):
+                    
+                    <ul class="list-arrow-right">
+                        <li>Custom ASIC or FPGA-based demonstrations of machine learning, cognitive or neuromorphic architectures.</li>
+                        <li>Innovative implementations of state-of-the-art cognitive algorithms/applications, and the underlying 
+                            software-hardware co-design techniques.</li>
+                        <li>Demonstration of end-to-end cognitive systems comprising of edge devices backed by a cloud computing 
+                            infrastructure.</li>
+                        <li>Novel designs showcasing the adoption of emerging technologies for the design of cognitive systems.</li>
+                        <li>Tools or frameworks to aid analysis, simulation and design of cognitive systems.</li>
+                    </ul>
+
+                    Submissions for the demonstration session may be made in the form of a 2-page manuscript highlighting key features and 
+                    innovations of the prototype demonstration. Proposals accepted for demonstration during the workshop can be accompanied 
+                    by a poster/short presentation. Authors should explicitly indicate that the submission is for <strong>prototype 
+                    demonstration</strong> at submission time.
+                    </p>
+
+                    <h3 class="section-title multiple-title">Important Dates</h3>
+                      
+                    <p>
+					<ul class="list-arrow-right">
+						<li><font style="color: red">Paper submission deadline: April 18<sup>th</sup>, 2025</font></li>
+						<li>Notification of acceptance: May 16<sup>th</sup>, 2025</li>
+						<li>Workshop date: June 22<sup>nd</sup>, 2025</li>
+					</ul>
+                    </p>
+
+                    <h3 class="section-title multiple-title">Program Committee</h3>
+
+                    <p>
+					<ul class="list-arrow-right">
+                        <li>Pradip Bose, IBM Research</li>
+                        <li>Alper Buyuktosunoglu, IBM Research</li>
+						<li>Eri Ogawa, IBM Research (Tokyo)</li>
+                        <li>Mori Ohara, IBM Research (Tokyo)</li>
+                        <li>Karthik Swaminathan, IBM Research</li>
+                        <li>Augusto Vega, IBM Research</li>
+					</ul>
+                    </p>
+					
+
+                </div><!-- /.col-sm-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+    <section id="important" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>Paper Submission Deadline<br>April 18<sup>th</sup>, 2025</h3>
+                
+                </div>
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>Notification Date<br>May 16<sup>th</sup>, 2025</h3>
+                
+                </div>
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>Workshop Date<br>June 22<sup>nd</sup>, 2025</h3>
+                
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+			
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Invited Speakers:</h3>    
+                </div>
+            </div>
+
+			<em>Coming soon!</em>
+
+<!--
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/natalia_vassilieva.jpg" style="border-radius:50%">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-10">
+					<h3>Training Large Language Models on Cerebras Wafer Scale Clusters</h3>
+					<h4><a href="https://www.linkedin.com/in/nataliavassilieva" target="_blank">Natalia Vassilieva
+						(Sr. Director of Product, Machine Learning - Cerebras Systems)</a></h4>
+					<p>
+						Large Language Models (LLMs) are shifting “what’s possible”, but require massive compute and massive complexity of distributed training
+						across thousands of accelerators with traditional hardware. Cerebras Wafer Scale Clusters make training LLMs faster and easier compared
+						to GPUs due to near-perfect linear scaling and simple data-parallel distribution strategy for models of any size. In this talk we will
+						share our experience and insights from training various LLMs, including open-sourced family of Cerebras-GPT models, on the Cerebras hardware.
+          	  		</p> 
+				</div>
+            </div>
+			
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/suvinay_subramanian.jpg" style="border-radius:50%">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-10">
+					<h3>Codesigning Computing Systems for Artificial Intelligence</h3>
+					<h4><a href="https://www.linkedin.com/in/suvinay-subramanian-53163b20a/" target="_blank">Suvinay Subramanian
+						(Staff Software Engineer - Google)</a></h4>
+					<p>
+						The rapid advancement of artificial intelligence (AI) has ushered in an era of unprecedented computational demands, necessitating continuous
+						innovation in computing systems. In this talk, we will highlight how codesign has been a key paradigm in enabling innovative solutions and
+						state-of-the-art performance in Google's AI computing systems, namely Tensor Processing Units (TPUs). We present several codesign case studies
+						across different layers of the stack, spanning hardware, systems, software, algorithms, all the way up to the datacenter. We discuss how TPUs
+						have made judicious, yet opinionated bets in our design choices, and how these design choices have not only kept pace with the blistering rate
+						of change, but also enabled many of the breakthroughs in AI.
+          	  		</p> 
+				</div>
+            </div>
+			
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/carlos_costa.jpg" style="border-radius:50%">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-10">
+					<h3>Building a Cloud-Native Platform for the Future of AI: Foundation Models</h3>
+					<h4><a href="https://www.linkedin.com/in/carlos-h-a-costa-9b9b1a1/" target="_blank">Carlos Costa
+						(Principal Research Staff Member - IBM)</a></h4>
+					<p>
+						Foundation Model is an emerging inflection point in the creation of powerful, very high dimensional data representations, triggered by advances
+						in AI. Foundation Models in AI are billion-parameter-scale neural networks, powered by novel architectures which are trained using a technique
+						called self-supervision. This new paradigm imposes unprecedented opportunities and challenges across the full computing stack. Hear how IBM Research
+						is expanding and realizing the value of Foundation Models, from building a cloud-native supercomputing infrastructure and a simplified, cloud-native
+						common stack to train and deploy Foundation Models in an multicloud environment, to applying this full stack to enable advances in natural language
+						domain and beyond, including time series and code generation. 
+          	  		</p> 
+				</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/tushar_krishna.jpg" style="border-radius:50%">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-10">
+					<h3>Modeling and Mitigating Communication Bottlenecks for Large Model Training at Scale</h3>
+					<h4><a href="https://www.linkedin.com/in/tushar-krishna-a60b0970/" target="_blank">Tushar Krishna
+						(Associate Professor - Georgia Institute of Technology)</a></h4>
+					<p>
+						The unprecedented success of large language models (LLMs) &mdash; such as Open AI's GPT-3 and GPT-4, Google's Bard, Meta's LLaMa , Cerebras-GPT and
+						others &mdash; is emphasizing the ever-growing demand to efficiently train them. These models leverage billions to trillions of model parameters and
+						this trend continues to increase at an unforeseen rate. The large model size makes it impossible for their parameters to fit within a single accelerator
+						device, whose memory is usually capped at tens of GBs. Furthermore, even if we succeed to fit the model into a single device, their tremendous compute
+						requirement leads to almost impractical training time. For example, GPT-3 consists of 175B parameters and takes 355 GPU-years to train with a single
+						NVIDIA V100 GPU. This has led to a growing interest in distributed training, which is the idea of sharding model weights and/or data samples across
+						multiple accelerator devices. However, this comes at the expense of communication overhead to exchange gradients and activations, and it has already
+						become a key bottleneck for distributed training. We identify that the communication challenge will get exacerbated in future systems that are expected
+						to leverage multi-dimensional networks with heterogeneous bandwidths due to diverse fabric technologies (e.g., chiplets, rack-scale, and scaleout).
+						We present our recent works on <em>(i)</em> modeling future training platforms to identify such bottlenecks, and <em>(ii)</em> a novel runtime scheduling
+						policy to enhance network bandwidth utilization.
+          	  		</p> 
+				</div>
+            </div>
+-->
+		</div>
+    </section>
+
+    <section id="program" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Program:</h3>
+
+			<em>Coming soon!</em>
+
+<!--
+                    <p>
+                    <table class="table table-hover">
+                      <thead class="thead-light">
+                        <tr>
+                          <th colspan=2 scope="col">Sunday June 22<sup>nd</sup>, 2025<br><em>(all times are Japan Standard Time)</em></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="col-md-3">9:00 - 9:15 AM</th>
+                          <td>Introduction and Welcoming Remarks</td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">9:15 - 10:00 AM</th>
+                          <td><strong>Invited Talk:</strong> "Building a Cloud-Native Platform for the Future of AI: Foundation Models"<br>
+							  Carlos Costa <em>(IBM Research)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10:00 - 10:15 AM</th>
+                          <td>"PDR-CapsNet: an Energy-Efficient Parallel Approach to Dynamic Routing in Capsule Networks"<br>
+							  Samaneh Javadinia and Amirali Baniasadi <em>(University of Victoria)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10:15 - 10:30 AM</th>
+                          <td>"Bit Error Characterization in Fault-Prone Homomorphic Encryption Applications"<br>
+							  Matias Mazzanti and Esteban Mocskos <em>(University of Buenos Aires)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10:30 - 10:45 AM</th>
+                          <td>"Object Detection and Classification on a Heterogeneous Edge SoC"<br>
+							  Gracen Wallace, Aporva Amarnath, Nandhini Chandramoorthy and Augusto Vega <em>(IBM Research)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10:45 - 11:00 AM</th>
+                          <td>"Diagnosis of Sports Injuries: A Hardware-Optimized Deep Learning Solution"<br>
+							  Ronak Das</td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">11:00 - 11:30 AM</th>
+                          <td><i>Break</i></td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">11:30 - 12:15 PM</th>
+                          <td><strong>Invited Talk:</strong> "Codesigning Computing Systems for Artificial Intelligence"<br>
+							  Suvinay Subramanian <em>(Google)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">12:15 - 12:30 PM</th>
+                          <td>"Qualitative Study of Facial Recognition Algorithm through Hardware-Software Acceleration"<br>
+							  Mohammed  Samiulla, Prithvi Naidu, Prajwal Naidu and Advaith Jagannath <em>(New York University)</em></td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">12:30 - 2:00 PM</th>
+                          <td><i>Lunch</i></td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">2:00 - 2:45 PM</th>
+                          <td><strong>Invited Talk:</strong> "Modeling and Mitigating Communication Bottlenecks for Large Model Training at Scale"<br>
+							  Tushar Krishna <em>(Georgia Institute of Technology)</em></td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">2:45 - 3:30 PM</th>
+                          <td><strong>Invited Talk:</strong> "Training Large Language Models on Cerebras Wafer Scale Clusters"<br>
+							  Natalia Vassilieva <em>(Cerebras Systems)</em></td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">3:30 - 4:00 PM</th>
+                          <td><i>Break</i></td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">4:00 - 5:00 PM</th>
+                          <td><strong>Panel: "AI Futures: Rosy, Scary or Blah?"</strong><br>
+							  This panel will debate the future of AI from the view point of society in general and computer architects/scientists in particular.
+							  In many ways, the first indications of scary excitement (beyond normal science fiction giddiness) came in 2011, with Ken Jennings
+							  (human Jeopardy champion) uttering those famous words: <a href="https://www.youtube.com/watch?v=wvSBzKbecmo" target="_blank">«I for
+							  one welcome our new computer overlords!»</a>. Since then, with the steady and steep rise of AI/ML capabilities, the awe and excitement
+							  seems to be turning into downright panic, given the statements being made by some of the modern-day pioneers/catalysts of the AI/ML
+							  revolution as well as notable other scientists and intellectuals.<br>
+							  After the panelists provide their position statements, the floor will be open for Q&A, with questions posed from the audience.
+						  </td>
+                        </tr>						
+                        <tr>
+                          <th scope="row">5:00 PM</th>
+                          <td>Concluding Remarks</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </p>
+-->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="prev" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Past Editions:</h3>
+					<ul class="list-arrow-right">
+                    <li><a href="https://augustojv.github.io/cogarch-workshop-2024/" rel="nofollow" target="_blank">2024</a></li>
+                    <li><a href="https://augustojv.github.io/cogarch-workshop-2023/" rel="nofollow" target="_blank">2023</a></li>
+                    <li><a href="https://augustojv.github.io/cogarch-workshop-2022/" rel="nofollow" target="_blank">2022</a></li>
+                    <li><a href="https://augustojv.github.io/cogarch-workshop-2021/" rel="nofollow" target="_blank">2021</a></li>
+                    <li><a href="https://augustojv.github.io/cogarch-workshop-2020/" rel="nofollow" target="_blank">2020</a></li>
+					<li><a href="https://augustojv.github.io/cogarch-workshop-2018/" rel="nofollow" target="_blank">2018</a></li>
+					</ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="org" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Organizers</h3>
+                </div>
+				
+                <div class="col-md-4">
+                <p>
+                <b><a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-pbose" rel="nofollow" target="_blank">Pradip 
+                Bose</a> </b>is a Distinguished Research Staff Member and manager of <i>Efficient and Resilient Systems</i> at IBM T. J. 
+                Watson Research Center. He has over thirty-three years of experience at IBM, and was a member of the pioneering RISC super 
+                scalar project at IBM (a pre-cursor to the first RS/6000 system product). He holds a Ph.D. degree from University of Illinois 
+                at Urbana-Champaign.
+                </p>
+                <p>
+                <b><a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-alperb" rel="nofollow" target="_blank">Alper 
+                Buyuktosunoglu</a> </b>is a Research Staff Member at IBM T. J. Watson Research Center. He has been involved in research and
+                development work in support of IBM Power Systems and IBM z Systems in the area of high performance, reliability and power-aware 
+                computer architectures. He holds a Ph.D. degree from University of Rochester.
+                </p>
+                <p>
+                <b><a href="https://www.linkedin.com/in/eri-ogawa-705a67141/?originalSubdomain=jp" rel="nofollow" target="_blank">Eri Ogawa</a> </b>is a
+				researcher at IBM Research, Tokyo, Japan. Her research interests include computer architecture, compiler, and deep learning acceleration.
+				She has an MS from Tokyo Institute of Technology.
+                </p>
+				</div>
+				
+                <div class="col-md-4">
+                <p>
+                <b><a href="https://research.ibm.com/people/mori-ohara" rel="nofollow" target="_blank">Mori Ohara</a> </b>is a Distinguished Engineer and deputy
+				director of IBM Research – Tokyo. He has been involved in performance analysis and optimization research across system stacks from computer
+				architecture, compiler and runtime to middleware for commercial systems, such as IBM Z Systems and IBM Power Systems. His current research
+				interests include AI accelerators, and their compiler, runtime, and programming models. He holds M.S. and Ph.D. degrees from Stanford University.
+                </p>
+                <p>
+                <b><a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-kvswamin" rel="nofollow" 
+                target="_blank">Karthik Swaminathan</a> </b>is a Research Staff Member at IBM T. J. Watson Research Center. His research
+                interests include power-aware architectures, domain-specific accelerators and emerging device technologies in processor
+                design. He is also interested in architectures for approximate and cognitive computing, particularly in aspects related to
+                their reliability and energy efficiency. He holds a Ph.D. degree from Penn State University.
+                </p>
+                <p>
+                <b><a href="https://www.linkedin.com/in/augusto-vega-5940684" rel="nofollow" target="_blank">Augusto Vega</a> </b>is a 
+                Research Staff Member at IBM T. J. Watson Research Center involved in research and development work in the areas of 
+                highly-reliable power-efficient embedded designs, cognitive systems and mobile computing. He holds a Ph.D. degree from 
+                Polytechnic University of Catalonia (UPC), Spain.
+                </p>
+                </div>
+                <div id="contact" class="col-md-4">
+                    <h4 class="section-title">Contact</h4>
+                    <ul class="list-arrow-right">
+                    <li><a href="mailto:info@cogarchworkshop.org">info@cogarchworkshop.org</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <i class="ion-earth"></i>
+                    <h3><a href="http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=6586" rel="nofollow" target="_blank">CogArch 2015</a></h3>
+                
+                </div>
+                <div class="col-sm-6">
+
+                    <i class="ion-earth"></i>
+                    <h3><a href="http://researcher.watson.ibm.com/researcher/view_group.php?id=5848" rel="nofollow" target="_blank">CogArch 2016</h3>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section id="links" class="section bg-image-2 facts ">
+        <div class="container">
+            <div class="row">
+				<div class="col-md-12">
+                    <h3 class="section-title">Interesting Links</h3>
+                </div>
+				<div class="col-md-3">
+                    <p>The <a href="http://www.computerhistory.org/timeline/ai-robotics/" target="_blank">AI and Robotics Timeline</a> from 1939 to date</p>
+                </div>
+				<div class="col-md-3">
+                    <p>The <a href="http://research.ibm.com/cognitive-computing/" target="_blank">AI portal</a> with the latest research activities conducted by IBM on AI</p>
+                </div>
+				<div class="col-md-3">
+                    <p>The <a href="https://research.ibm.com/topics/foundation-models" target="_blank">Foundation Models</a> portal</p>
+                </div>
+				<div class="col-md-3">
+                    <p>The <a href="https://research.ibm.com/blog/what-are-computer-chiplets" target="_blank">What are chiplets?</a> introductory guide</p>
+                </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+			
+				<div id="registration" class="col-md-3">
+                    <h3 class="section-title">Registration</h3>
+
+                    <p>
+                    CogArch will be held in conjunction with the <b><a href="https://iscaconf.org/isca2025/"  target="_blank">
+					52<sup>nd</sup> International Symposium on Computer Architecture (ISCA 2025)</a></b>.
+                    Refer to the main venue to continue with the registration process.
+                    </p>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <h3 class="section-title">Event Location</h3>
+                    <address>
+					  <p>Waseda University<br>
+                      Tokyo, Japan</p>
+                    </address>
+                    
+                    <p><b><a href="https://iscaconf.org/isca2025/" target="_blank"> Check main venue site for more information.</a></b></p>
+
+                </div>
+                <div class="col-sm-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.710812459427!2d139.7196485!3d35.7087334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d1a4869b805%3A0x11e214c5de0808a8!2sWaseda%20University!5e0!3m2!1sen!2sus!4v1740951872046!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Share this event on your social networks</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://twitter.com/home?status=Check%20out%20the%20Workshop%20on%20Cognitive%20Architectures%0Ahttps%3A//cogarchworkshop.org"><i class="ion-social-twitter"></i>&nbsp; Twitter</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//cogarchworkshop.org/"><i class="ion-social-facebook"></i>&nbsp; Facebook</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//cogarchworkshop.org/&title=Workshop%20on%20Cognitive%20Architectures&summary=&source="><i class="ion-social-linkedin-outline"></i>&nbsp; LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
